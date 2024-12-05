@@ -1,0 +1,34 @@
+{
+    "datasets": {
+      "twenty_news": {
+        "path": "datasets/20news-bydate/test",
+        "categories_path": null,
+        "num_samples": 10
+      },
+      "dbpedia": {
+        "path": "datasets/dbpedia_csv/test.csv",
+        "categories_path": "datasets/dbpedia_csv/classes.txt",
+        "num_samples": 10
+      },
+      "yelp": {
+        "path": "datasets/yelp_review_full_csv/test.csv",
+        "categories_path": null,
+        "num_samples": 10
+      }
+    },
+    "models": [
+      "Meta-Llama-3.1-8B-Instruct",
+      "Meta-Llama-3.2-3B-Instruct",
+      "Meta-Llama-3.2-1B-Instruct"
+    ],
+    "prompting_methods": [
+      "direct_prompting",
+      "chain_of_thought",
+      "few_shot"
+    ],
+    "pricing": {
+      "input_price_per_million": 0.10,
+      "output_price_per_million": 0.20
+    }
+  }
+  
